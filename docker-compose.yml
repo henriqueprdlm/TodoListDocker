@@ -8,8 +8,6 @@ services:
       - PORT=5001
     volumes:
       - ./data:/app/db
-    ports:
-      - "5001:5001"  # Externa/Interna
     depends_on:
       cert-generator:
         condition: service_healthy  # Só inicia após o certificado estar pronto

@@ -1,11 +1,13 @@
-# TodoListDockerAula
+# ToDoListDocker
 
-Aula de monolito com docker, docker-compos e nginx.
+ToDo List com Docker
 
 ## Instruções
 
-1. Faça um fork deste repositório.
-2. Clone o repositório para a sua máquina.
-3. Siga as instruções do arquivo [Tutorial.md](Tutorial.md) para realizar a atividade.
-4. Após finalizar a atividade, faça um commit e um push para o seu repositório.
-5. Envie o link do seu repositório para o professor.
+1. Instale o Docker Desktop na sua máquina caso não tenha
+2. Faça um fork deste repositório
+3. Clone o repositório para a sua máquina
+4. Abra a pasta do projeto no Git Bash (pode ser no terminal do VS Code)
+5. Execute o comando "docker compose up -d --build" para subir o container
+6. Acesse o localhost da sua máquina em um navegador (https://localhost) - Caso esteja restringindo, clique em mais detalhes e acessar site
+7. Para parar o container, execute o comando "docker compose down" no terminal
